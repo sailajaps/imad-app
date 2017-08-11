@@ -13,8 +13,8 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/ui/https://github.com/sailajaps/imad-app/blob/master/ui/WIN_20150815_114457.JPG', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'https://github.com/sailajaps/imad-app/blob/master/ui/WIN_20150815_114457.JPG'));
+app.get('/ui/WIN_20150815_114457.JPG', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'WIN_20150815_114457.JPG'));
 });
 
 app.get('/a.html', function (req, res) {
